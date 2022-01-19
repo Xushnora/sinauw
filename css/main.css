@@ -277,21 +277,21 @@ a{
 
 .mentors-title::before{
     content: '';
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
     display: inline-block;
-    background-image: url('../images/users1.svg');
+    background-image: url('../images/people.svg');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    top: 0;
-    left: -40px;
+    top: -7px;
+    left: -60px;
 }
 
 .mentors-item:nth-child(2) .mentors-title::before{
-    background-image: url('../images/teacher.svg');
+    background-image: url('../images/mail.svg');
 }
 
 .mentors-item:nth-child(3) .mentors-title::before{
-    background-image: url('../images/books-heart.svg');
+    background-image: url('../images/love.svg');
 }
