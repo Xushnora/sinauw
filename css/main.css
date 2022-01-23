@@ -327,6 +327,8 @@ a{
 
 .learn-list{
     height: 485px;
+    display: flex;
+    align-items: flex-start;
     margin-bottom: 137px;
 }
 
@@ -414,7 +416,7 @@ a{
 
 
 .learn-btn:hover{
-    background-color: #fff;
+    background-color: transparent;
     color: #f5443b;
     outline: 2px solid #f5443b;
 }
@@ -444,13 +446,13 @@ a{
 
 .learn-item:hover .btn-content{
     opacity: 1;
-    transition: all 1s ease;
+    transition: all 2.5s ease;
 }
 
 .learn-item:hover{
     transform: translate(0);
     height: 485px;
-    transition: all 1s ease;
+    transition: all 0.4s ease;
 }
 
 .main-btn{
@@ -578,6 +580,17 @@ a{
     border: 1px solid aqua;
     border-radius: 8px;
 }
+.img-key{
+    padding: 11px;
+    border: 1px solid #3BA7F5;
+    border-radius: 8px;
+}
+.img-crown{
+    padding: 11px;
+    border: 1px solid #F6844B;
+    border-radius: 8px;
+}
+
 
 .stars-in{
     margin-left: 40px;
@@ -698,6 +711,10 @@ a{
 
 /*  --- FOOTER ---- */
 
+#footer{
+    padding-bottom: 30px;
+}
+
 .bxl-facebook{
     font-size: 35px;
     color: #ACABBF;
@@ -757,4 +774,16 @@ a{
 
 .social-item:hover .bx{
     color: #fff;
+}
+
+.finally-link-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 86px;
+}
+
+.finally-link{
+    color: #8F91D0;
+    font-size: 16px;
+    line-height: 19px;
 }
